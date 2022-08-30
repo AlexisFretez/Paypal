@@ -13,5 +13,5 @@ Para este proyecto necesitarás:
 
 Puedes contactarme en mis redes sociales
 
-- Facebook: https://www.facebook.com/carlos.solis1337
-- Youtube: www.youtube.com/user/RevolucionMobi?
+<!-- - Facebook: https://www.facebook.com/carlos.solis1337
+- Youtube: www.youtube.com/user/RevolucionMobi? -->
