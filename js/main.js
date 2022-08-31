@@ -22,7 +22,11 @@ function definirValor(_valor) {
          });
      },
      onAuthorize: function (data, actions) {
-         
+         return actions.payment.execute().then(function(){
+            document.querySelector('#confirmacion').style.display = 'block';
+            document.querySelector('#compra').style.display = 'none';
+            document.querySelector('.paypal-btn-container').style.display = 'none';
+         })
      }
  }, "#mi-boton-paypal")
 
