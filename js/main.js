@@ -7,7 +7,14 @@ function definirValor(_valor) {
 }
 
  paypal.Button.render({
-     env: 'sandbox' ,
+     env: 'sandbox',
+     style:{
+         color: 'blue',
+         //size: 'small',
+         shape: 'rect'
+     },
+     commit: true,
+     locale:"es_ES",
      client: {
          sandbox: 'AY9LOzb0f1aU_5Xz7NkW-Bwz5JRrDdPV_6ossVtqzbPrqvjb3jAZc8jEp-lsv17Q0FlQfGqpLKs4GCkO',    
      },
